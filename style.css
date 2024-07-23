@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-image: url("desola-lanre-ologun-zYgV-NGZtlA-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+#form-section {
+    padding: 20px;
+    width: 50%;
+    margin-left: 400px;
+    margin-top: 200px;
+}
+
+#myform{
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 40px;
+
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+input[type="radio"] {
+    padding: 10px;
+    margin-bottom: 15px;
+  
+}
+
+.radio-group {
+    margin-bottom: 15px;
+
+    word-spacing: 5px;
+    
+}
+
+.radio-group input[type="radio"] {
+    margin-right: 5px;
+    padding: 5px 0px;
+
+    
+}
+
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+input[type="submit"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+.second-portion{
+    background-color: #fff;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-right: 400px;
+    margin-top: 200px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 40px;
+
+}
+
+.btns-group{
+    float: right;
+    padding: 20px;
+    
+}
+
+.btn{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.btn:hover{
+    background-color: #0056b3;
+
+}
+
+
+#demo {
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-width: 10px; 
+    width: 350px;
+    height: 250px;
+    font-weight: bold;
+}
+.demo-item {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.demo-item:hover{
+    transform: scale(1.2);
+}
+
+.fname { background-color: lightblue; }
+.lname { background-color: lightgreen; }
+.email { background-color: lightcoral; }
+.age { background-color: lightgoldenrodyellow; }
+.password { background-color: lightpink; }
+.gender { background-color: lightslategray; }
+
